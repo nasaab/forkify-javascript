@@ -38,7 +38,7 @@ import { elements, renderLoader, clearLoader } from './views/base';
         await state.search.getResults();
 
         // 5) Render results on UI
-        // console.log(state.search.result);
+        //console.log(state.search.result);
         clearLoader();
         searchView.renderResults(state.search.result);
     }
